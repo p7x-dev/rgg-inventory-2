@@ -1,0 +1,17 @@
+@mixin expanded($target) {
+	display: grid;
+	grid-template-rows: 0fr;
+	overflow: hidden;
+
+	transition: grid-template-rows 0.3s ease;
+
+	> .#{$target} {
+		overflow: hidden;
+		min-height: 0;
+	}
+
+	&.expanded {
+		grid-template-rows: 1fr;
+		overflow: scroll;
+	}
+}

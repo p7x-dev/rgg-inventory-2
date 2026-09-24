@@ -1,0 +1,30 @@
+@import '@app/styles/taiga';
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.pulse {
+	display: inline-block;
+	animation: fade 1.2s ease-in-out infinite;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0.55;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.container {
+	width: max(0, 64rem);
+	margin: 0 auto;
+	padding: 1rem 2rem;
+}

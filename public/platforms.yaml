@@ -1,0 +1,764 @@
+- maintainer: Sony
+  platforms:
+    - name: PlayStation
+      code: ps1
+      icon: ps1.svg
+    - name: PlayStation 2
+      code: ps2
+      icon: ps2.svg
+    - name: PlayStation 3
+      code: ps3
+      icon: ps3.svg
+    - name: PlayStation 4
+      code: ps4
+      icon: ps4.svg
+    - name: PlayStation 5
+      code: ps5
+      icon: ps5.svg
+    - name: PlayStation Portable
+      code: psp
+      icon: psp.svg
+    - name: PlayStation Vita
+      code: vita
+      icon: null
+
+- maintainer: Microsoft
+  platforms:
+    - name: Xbox
+      code: xbox
+      icon: xbox.svg
+    - name: Xbox 360
+      code: xbox-360
+      icon: xbox-360.svg
+    - name: Xbox One
+      code: xbox-one
+      icon: xbox-one.svg
+    - name: Xbox Series X
+      code: xbox-series-x
+      icon: xbox-one.svg
+    - name: Xbox Series S
+      code: xbox-series-s
+      icon: xbox-one.svg
+
+- maintainer: Nintendo
+  platforms:
+    - name: Nintendo Switch
+      code: switch
+      icon: switch.svg
+    - name: Nintendo Switch 2
+      code: switch-2
+      icon: switch.svg
+    - name: Wii
+      code: wii
+      icon: wii.svg
+    - name: Wii U
+      code: wii-u
+      icon: wii-u.svg
+    - name: GameCube
+      code: gamecube
+      icon: gamecube.svg
+    - name: Nintendo 64
+      code: n64
+      icon: n64.svg
+    - name: Super Nintendo Entertainment System
+      code: snes
+      icon: snes.svg
+    - name: Nintendo Entertainment System
+      code: nes
+      icon: nes.svg
+    - name: Famicom
+      code: famicom
+      icon: famicom.svg
+    - name: Game Boy
+      code: game-boy
+      icon: game-boy.svg
+    - name: Game Boy Color
+      code: gbc
+      icon: gbc.svg
+    - name: Game Boy Advance
+      code: gba
+      icon: gba.svg
+    - name: Nintendo DS
+      code: ds
+      icon: ds.svg
+    - name: Nintendo 3DS
+      code: 3ds
+      icon: 3ds.svg
+    - name: Virtual Boy
+      code: virtual-boy
+      icon: virtualboy.svg
+    - name: Game & Watch
+      code: game-and-watch
+      icon: nintendo-game-watch.svg
+
+- maintainer: Sega
+  platforms:
+    - name: SG-1000
+      code: sg-1000
+      icon: sg-1000.svg
+    - name: SG-1000 II
+      code: sg-1000-2
+      icon: null
+    - name: Master System
+      code: master-system
+      icon: master-system.svg
+    - name: Master System II
+      code: master-system-2
+      icon: master-system.svg
+    - name: Mega Drive
+      code: mega-drive
+      icon: genesis.svg
+    - name: Genesis
+      code: genesis
+      icon: genesis.svg
+    - name: Mega-CD
+      code: mega-cd
+      icon: segacd.svg
+    - name: Sega CD
+      code: sega-cd
+      icon: segacd.svg
+    - name: 32X
+      code: 32x
+      icon: sega32x.svg
+    - name: Sega Saturn
+      code: saturn
+      icon: sega-saturn.svg
+    - name: Dreamcast
+      code: dreamcast
+      icon: dreamcast.svg
+    - name: Game Gear
+      code: game-gear
+      icon: game-gear.svg
+    - name: Sega Nomad
+      code: nomad
+      icon: null
+    - name: Sega Pico
+      code: pico
+      icon: null
+    - name: TeraDrive
+      code: teradrive
+      icon: null
+    - name: Sega Mark III
+      code: mark-iii
+      icon: null
+
+- maintainer: Atari
+  platforms:
+    - name: Atari 2600
+      code: atari-2600
+      icon: atari-2600.svg
+    - name: Atari 5200
+      code: atari-5200
+      icon: atari-5200.svg
+    - name: Atari 7800
+      code: atari-7800
+      icon: atari-7800.svg
+    - name: Atari XEGS
+      code: atari-xegs
+      icon: null
+    - name: Atari 400
+      code: atari-400
+      icon: null
+    - name: Atari 800
+      code: atari-800
+      icon: atari800.svg
+    - name: Atari ST
+      code: atari-st
+      icon: atarist.svg
+    - name: Atari Jaguar
+      code: jaguar
+      icon: atarijaguar.svg
+    - name: Jaguar CD
+      code: jaguar-cd
+      icon: atari-jaguar.svg
+    - name: Atari Lynx
+      code: lynx
+      icon: atarilynx.svg
+    - name: Atari Lynx II
+      code: lynx-2
+      icon: atari-lynx.svg
+    - name: Atari VCS
+      code: atari-vcs
+      icon: null
+
+- maintainer: NEC / Hudson
+  platforms:
+    - name: PC Engine
+      code: pc-engine
+      icon: pcengine.svg
+    - name: TurboGrafx-16
+      code: turbografx-16
+      icon: tg16.svg
+    - name: SuperGrafx
+      code: supergrafx
+      icon: supergrafx.svg
+    - name: PC Engine CD
+      code: pc-engine-cd
+      icon: pce-cd.svg
+    - name: TurboDuo
+      code: turboduo
+      icon: null
+    - name: TurboExpress
+      code: turboexpress
+      icon: null
+    - name: PC Engine GT
+      code: pc-engine-gt
+      icon: null
+    - name: PC Engine LT
+      code: pc-engine-lt
+      icon: null
+    - name: PC-FX
+      code: pc-fx
+      icon: pcfx.svg
+
+- maintainer: SNK
+  platforms:
+    - name: Neo Geo AES
+      code: neo-geo-aes
+      icon: neogeo.svg
+    - name: Neo Geo CD
+      code: neo-geo-cd
+      icon: null
+    - name: Neo Geo CDZ
+      code: neo-geo-cdz
+      icon: null
+    - name: Neo Geo Pocket
+      code: neo-geo-pocket
+      icon: ngp.svg
+    - name: Neo Geo Pocket Color
+      code: neo-geo-pocket-color
+      icon: ngpc.svg
+    - name: Neo Geo X
+      code: neo-geo-x
+      icon: null
+    - name: Neo Geo MVS
+      code: neo-geo-mvs
+      icon: neogeo.svg
+
+- maintainer: 3DO
+  platforms:
+    - name: 3DO Interactive Multiplayer
+      code: 3do
+      icon: 3do.svg
+    - name: Panasonic FZ-1
+      code: fz-1
+      icon: 3do.svg
+    - name: Panasonic FZ-10
+      code: fz-10
+      icon: 3do.svg
+    - name: GoldStar 3DO
+      code: goldstar-3do
+      icon: 3do.svg
+    - name: Sanyo 3DO
+      code: sanyo-3do
+      icon: 3do.svg
+
+- maintainer: Commodore
+  platforms:
+    - name: Commodore 64
+      code: c64
+      icon: c64.svg
+    - name: Commodore 128
+      code: c128
+      icon: c128.svg
+    - name: Amiga
+      code: amiga
+      icon: amiga.svg
+    - name: Amiga 500
+      code: amiga-500
+      icon: amiga.svg
+    - name: Amiga 600
+      code: amiga-600
+      icon: amiga.svg
+    - name: Amiga 1200
+      code: amiga-1200
+      icon: amiga.svg
+    - name: Amiga CD32
+      code: amiga-cd32
+      icon: amigacd32.svg
+    - name: Amiga CDTV
+      code: amiga-cdtv
+      icon: null
+    - name: VIC-20
+      code: vic-20
+      icon: vic20.svg
+    - name: Commodore 16
+      code: c16
+      icon: null
+    - name: Commodore Plus/4
+      code: plus-4
+      icon: null
+
+- maintainer: Sinclair / Acorn / BBC
+  platforms:
+    - name: ZX Spectrum
+      code: zx-spectrum
+      icon: zxspectrum.svg
+    - name: ZX Spectrum 128
+      code: zx-spectrum-128
+      icon: zxspectrum.svg
+    - name: ZX Spectrum +2
+      code: zx-spectrum-2
+      icon: zxspectrum.svg
+    - name: ZX Spectrum +3
+      code: zx-spectrum-3
+      icon: zxspectrum.svg
+    - name: ZX81
+      code: zx81
+      icon: null
+    - name: ZX80
+      code: zx80
+      icon: null
+    - name: Acorn Electron
+      code: acorn-electron
+      icon: acorn-electron.svg
+    - name: BBC Micro
+      code: bbc-micro
+      icon: bbcmicro.svg
+    - name: BBC Micro Model B
+      code: bbc-micro-b
+      icon: bbcmicro.svg
+    - name: Acorn Archimedes
+      code: archimedes
+      icon: acorn-archimedes.svg
+
+- maintainer: IBM / Microsoft
+  platforms:
+    - name: IBM PC
+      code: ibm-pc
+      icon: pc.svg
+    - name: IBM PC XT
+      code: ibm-pc-xt
+      icon: pc.svg
+    - name: IBM PC AT
+      code: ibm-pc-at
+      icon: pc.svg
+    - name: DOS
+      code: dos
+      icon: null
+    - name: MS-DOS
+      code: ms-dos
+      icon: null
+    - name: Windows
+      code: windows
+      icon: null
+    - name: Windows 95
+      code: windows-95
+      icon: null
+    - name: Windows 98
+      code: windows-98
+      icon: null
+    - name: Windows XP
+      code: windows-xp
+      icon: null
+    - name: Windows 7
+      code: windows-7
+      icon: null
+    - name: Windows 10
+      code: windows-10
+      icon: null
+    - name: Windows 11
+      code: windows-11
+      icon: windows-11.svg
+
+- maintainer: Apple
+  platforms:
+    - name: Apple II
+      code: apple-2
+      icon: apple2.svg
+    - name: Macintosh
+      code: macintosh
+      icon: macintosh.svg
+    - name: Mac OS
+      code: mac-os
+      icon: macosx.svg
+    - name: macOS
+      code: macos
+      icon: macosx.svg
+    - name: iOS
+      code: ios
+      icon: apple-ios.svg
+    - name: iPadOS
+      code: ipados
+      icon: apple-ios.svg
+    - name: Apple TV
+      code: apple-tv
+      icon: apple-tv-plus-large.svg
+
+- maintainer: Amstrad
+  platforms:
+    - name: Amstrad CPC
+      code: amstrad-cpc
+      icon: amstradcpc.svg
+    - name: Amstrad GX4000
+      code: gx4000
+      icon: null
+    - name: Amstrad PCW
+      code: amstrad-pcw
+      icon: null
+
+- maintainer: Sharp
+  platforms:
+    - name: Sharp X1
+      code: sharp-x1
+      icon: null
+    - name: Sharp X68000
+      code: x68000
+      icon: x68000.svg
+    - name: Sharp MZ
+      code: sharp-mz
+      icon: null
+    - name: Sharp MZ-700
+      code: mz-700
+      icon: null
+    - name: Sharp MZ-800
+      code: mz-800
+      icon: null
+    - name: Sharp MZ-2500
+      code: mz-2500
+      icon: null
+
+- maintainer: NEC
+  platforms:
+    - name: PC-88
+      code: pc-88
+      icon: pc88.svg
+    - name: PC-98
+      code: pc-98
+      icon: pc98.svg
+    - name: PC-9801
+      code: pc-9801
+      icon: nec-pc-8801-9801.svg
+    - name: PC-9821
+      code: pc-9821
+      icon: nec-pc-8801-9801.svg
+
+- maintainer: Fujitsu
+  platforms:
+    - name: FM-7
+      code: fm-7
+      icon: fm7.svg
+    - name: FM-77
+      code: fm-77
+      icon: fm7.svg
+    - name: FM Towns
+      code: fm-towns
+      icon: null
+    - name: FM Towns Marty
+      code: fm-towns-marty
+      icon: null
+
+- maintainer: Bandai
+  platforms:
+    - name: WonderSwan
+      code: wonderswan
+      icon: wonderswan.svg
+    - name: WonderSwan Color
+      code: wonderswan-color
+      icon: wonderswancolor.svg
+    - name: Playdia
+      code: playdia
+      icon: null
+    - name: Pippin
+      code: pippin
+      icon: apple-pippin.svg
+
+- maintainer: Philips / Magnavox
+  platforms:
+    - name: Philips CD-i
+      code: philips-cdi
+      icon: phillips-cd-i.svg
+    - name: Philips Videopac
+      code: videopac
+      icon: videopac.svg
+    - name: Magnavox Odyssey
+      code: odyssey
+      icon: null
+    - name: Odyssey 2
+      code: odyssey-2
+      icon: odyssey2.svg
+
+- maintainer: Fairchild
+  platforms:
+    - name: Fairchild Channel F
+      code: channel-f
+      icon: channelf.svg
+    - name: Fairchild Channel F System II
+      code: channel-f-2
+      icon: channelf.svg
+
+- maintainer: Coleco
+  platforms:
+    - name: ColecoVision
+      code: colecovision
+      icon: colecovision.svg
+    - name: Coleco Adam
+      code: coleco-adam
+      icon: null
+
+- maintainer: Mattel
+  platforms:
+    - name: Intellivision
+      code: intellivision
+      icon: intellivision.svg
+    - name: Intellivision II
+      code: intellivision-2
+      icon: intellivision.svg
+    - name: Intellivision Amico
+      code: intellivision-amico
+      icon: null
+
+- maintainer: Bally
+  platforms:
+    - name: Bally Astrocade
+      code: astrocade
+      icon: consoles.svg
+    - name: Bally Professional Arcade
+      code: bally-professional-arcade
+      icon: null
+
+- maintainer: RCA
+  platforms:
+    - name: RCA Studio II
+      code: studio-2
+      icon: null
+
+- maintainer: APF
+  platforms:
+    - name: APF-MP1000
+      code: apf-mp1000
+      icon: null
+    - name: APF Imagination Machine
+      code: apf-imagination-machine
+      icon: null
+
+- maintainer: Emerson
+  platforms:
+    - name: Arcadia 2001
+      code: arcadia-2001
+      icon: arcadia.svg
+
+- maintainer: Vectrex
+  platforms:
+    - name: Vectrex
+      code: vectrex
+      icon: vectrex.svg
+
+- maintainer: Casio
+  platforms:
+    - name: Casio Loopy
+      code: casio-loopy
+      icon: null
+    - name: Casio PV-1000
+      code: casio-pv-1000
+      icon: new-folder.svg
+    - name: Casio PV-2000
+      code: casio-pv-2000
+      icon: null
+
+- maintainer: Other
+  platforms:
+    - name: Ouya
+      code: ouya
+      icon: null
+    - name: Nvidia Shield
+      code: nvidia-shield
+      icon: null
+    - name: Nvidia Shield TV
+      code: nvidia-shield-tv
+      icon: null
+    - name: Google Stadia
+      code: stadia
+      icon: null
+    - name: Amazon Fire TV
+      code: fire-tv
+      icon: null
+    - name: Amazon Luna
+      code: luna
+      icon: null
+    - name: Steam Machine
+      code: steam-machine
+      icon: steam.svg
+    - name: Steam Deck
+      code: steam-deck
+      icon: steam.svg
+    - name: Asus ROG Ally
+      code: rog-ally
+      icon: null
+    - name: Lenovo Legion Go
+      code: legion-go
+      icon: null
+    - name: AYANEO
+      code: ayaneo
+      icon: null
+    - name: Analogue Pocket
+      code: analogue-pocket
+      icon: null
+    - name: Evercade
+      code: evercade
+      icon: null
+    - name: Evercade EXP
+      code: evercade-exp
+      icon: null
+    - name: Evercade VS
+      code: evercade-vs
+      icon: null
+    - name: Evercade VS-R
+      code: evercade-vs-r
+      icon: null
+    - name: Evercade EXP-R
+      code: evercade-exp-r
+      icon: null
+    - name: Playdate
+      code: playdate
+      icon: playdate.svg
+
+- maintainer: Handheld
+  platforms:
+    - name: Nokia N-Gage
+      code: n-gage
+      icon: null
+    - name: Nokia N-Gage QD
+      code: n-gage-qd
+      icon: null
+    - name: Gizmondo
+      code: gizmondo
+      icon: null
+    - name: GP32
+      code: gp32
+      icon: null
+    - name: GP2X
+      code: gp2x
+      icon: null
+    - name: Dingoo A320
+      code: dingoo-a320
+      icon: null
+
+- maintainer: Sega Arcade
+  platforms:
+    - name: Sega System 1
+      code: sega-system-1
+      icon: null
+    - name: Sega System 2
+      code: sega-system-2
+      icon: null
+    - name: Sega System 16
+      code: sega-system-16
+      icon: null
+    - name: Sega System 18
+      code: sega-system-18
+      icon: null
+    - name: Sega Model 1
+      code: sega-model-1
+      icon: null
+    - name: Sega Model 2
+      code: sega-model-2
+      icon: sega-model-2-3.svg
+    - name: Sega Model 3
+      code: sega-model-3
+      icon: sega-model-2-3.svg
+    - name: Naomi
+      code: naomi
+      icon: null
+    - name: Naomi 2
+      code: naomi-2
+      icon: null
+    - name: Atomiswave
+      code: atomiswave
+      icon: null
+
+- maintainer: Namco Arcade
+  platforms:
+    - name: Namco System 1
+      code: namco-system-1
+      icon: null
+    - name: Namco System 2
+      code: namco-system-2
+      icon: null
+    - name: Namco System 11
+      code: namco-system-11
+      icon: null
+    - name: Namco System 12
+      code: namco-system-12
+      icon: null
+    - name: Namco System 22
+      code: namco-system-22
+      icon: null
+    - name: Namco System 23
+      code: namco-system-23
+      icon: null
+
+- maintainer: Capcom Arcade
+  platforms:
+    - name: CPS-1
+      code: cps-1
+      icon: null
+    - name: CPS-2
+      code: cps-2
+      icon: null
+    - name: CPS-3
+      code: cps-3
+      icon: null
+
+- maintainer: Konami Arcade
+  platforms:
+    - name: Konami System 573
+      code: konami-system-573
+      icon: null
+    - name: Konami GX
+      code: konami-gx
+      icon: null
+    - name: Konami Viper
+      code: konami-viper
+      icon: null
+
+- maintainer: Nintendo Arcade
+  platforms:
+    - name: Nintendo VS. System
+      code: nintendo-vs-system
+      icon: null
+
+- maintainer: Midway Arcade
+  platforms:
+    - name: Midway
+      code: midway
+      icon: null
+    - name: Midway Y-Unit
+      code: midway-y-unit
+      icon: null
+    - name: Midway T-Unit
+      code: midway-t-unit
+      icon: null
+    - name: Midway Wolf Unit
+      code: midway-wolf-unit
+      icon: null
+
+- maintainer: Taito Arcade
+  platforms:
+    - name: Taito F2
+      code: taito-f2
+      icon: null
+    - name: Taito F3
+      code: taito-f3
+      icon: null
+    - name: Taito Type X
+      code: taito-type-x
+      icon: null
+    - name: Taito Type X2
+      code: taito-type-x2
+      icon: null
+
+- maintainer: Irem Arcade
+  platforms:
+    - name: Irem M92
+      code: irem-m92
+      icon: null
+    - name: Irem M107
+      code: irem-m107
+      icon: null
+
+- maintainer: Data East Arcade
+  platforms:
+    - name: Data East Arcade
+      code: data-east-arcade
+      icon: null

@@ -1,0 +1,97 @@
+:root,
+[tuiTheme='dark'] {
+	// ---- Backgrounds -------------------------------------------------------
+	--tui-background-base: #0f0817; // глубокий фиолетово-чёрный фон
+	--tui-background-base-alt: #180e26;
+	--tui-background-neutral-1: rgb(255, 46, 166, 0.08); // магента с прозрачностью
+	--tui-background-neutral-1-hover: rgb(255, 46, 166, 0.16);
+	--tui-background-neutral-1-pressed: rgb(255, 46, 166, 0.24);
+	--tui-background-neutral-2: rgb(34, 224, 255, 0.1); // циан с прозрачностью
+	--tui-background-neutral-2-hover: rgb(34, 224, 255, 0.18);
+	--tui-background-neutral-2-pressed: rgb(34, 224, 255, 0.26);
+	--tui-background-accent-1: #ff2ea6; // магента — основной акцент
+	--tui-background-accent-1-hover: #ff5cc0;
+	--tui-background-accent-1-pressed: #c9197f;
+	--tui-background-accent-2: #22e0ff; // циан — вторичный акцент
+	--tui-background-accent-2-hover: #6ceaff;
+	--tui-background-accent-2-pressed: #10adc4;
+	--tui-background-accent-opposite: #f5eaff;
+	--tui-background-accent-opposite-hover: #e0c9ff;
+	--tui-background-accent-opposite-pressed: #c9a8ff;
+	--tui-background-elevation-1: #180e26;
+	--tui-background-elevation-2: #241536;
+	--tui-background-elevation-3: #331f4a;
+
+	// ---- Borders / service ---------------------------------------------------
+	--tui-border-normal: rgb(255, 46, 166, 0.24);
+	--tui-border-hover: rgb(255, 46, 166, 0.5);
+	--tui-border-focus: rgb(34, 224, 255, 0.7);
+	--tui-service-autofill-background: rgb(255, 225, 77, 0.2);
+	--tui-service-selection-background: rgb(34, 224, 255, 0.24);
+	--tui-service-backdrop: rgb(8, 4, 14, 0.85);
+
+	// ---- Statuses ------------------------------------------------------------
+	--tui-status-negative: #ff3b3b;
+	--tui-status-negative-pale: rgb(255, 59, 59, 0.2);
+	--tui-status-negative-pale-hover: rgb(255, 59, 59, 0.3);
+	--tui-status-positive: #39ff88;
+	--tui-status-positive-pale: rgb(57, 255, 136, 0.2);
+	--tui-status-positive-pale-hover: rgb(57, 255, 136, 0.3);
+	--tui-status-warning: #ffe14d;
+	--tui-status-warning-pale: rgb(255, 225, 77, 0.2);
+	--tui-status-warning-pale-hover: rgb(255, 225, 77, 0.3);
+	--tui-status-info: #22e0ff;
+	--tui-status-info-pale: rgb(34, 224, 255, 0.2);
+	--tui-status-info-pale-hover: rgb(34, 224, 255, 0.3);
+	--tui-status-neutral: #b291d9;
+
+	// ---- Text ------------------------------------------------------------
+	--tui-text-primary: #f5eaff;
+	--tui-text-secondary: rgb(245, 234, 255, 0.72);
+	--tui-text-tertiary: rgb(245, 234, 255, 0.5);
+	--tui-text-primary-on-accent-1: #0f0817; // текст поверх --tui-background-accent-1
+	--tui-text-primary-on-accent-2: #0f0817; // текст поверх --tui-background-accent-2
+	--tui-text-action: #ff5cc0;
+	--tui-text-action-hover: #ff8ad4;
+	--tui-text-positive: #39ff88;
+	--tui-text-positive-hover: #6dffab;
+	--tui-text-negative: #ff3b3b;
+	--tui-text-negative-hover: #ff6f6f;
+
+	// ---- Charts (categorical, если используешь графики/диаграммы) -----------
+	--tui-chart-categorical-00: var(--tui-background-accent-1);
+	--tui-chart-categorical-01: #ff2ea6;
+	--tui-chart-categorical-02: #22e0ff;
+	--tui-chart-categorical-03: #ffe14d;
+	--tui-chart-categorical-04: #39ff88;
+	--tui-chart-categorical-05: #b291d9;
+	--tui-chart-categorical-06: #ff8a00;
+	--tui-chart-categorical-07: #6788ff;
+	--tui-chart-categorical-08: #ff6f6f;
+	--tui-chart-categorical-09: #7fd7cc;
+	--tui-chart-categorical-10: #cc6eff;
+	--tui-chart-categorical-11: #8dda71;
+	--tui-chart-categorical-12: #ffc700;
+	--tui-chart-categorical-13: #70b6f6;
+	--tui-chart-categorical-14: #ff5cc0;
+	--tui-chart-categorical-15: #4ac99b;
+	--tui-chart-categorical-16: #2fad96;
+	--tui-chart-categorical-17: #d4aca2;
+	--tui-chart-categorical-18: #9d6f64;
+	--tui-chart-categorical-19: #d2e9a2;
+	--tui-chart-categorical-20: #aadc42;
+	--tui-chart-categorical-21: #3682db;
+	--tui-chart-categorical-22: #34b41f;
+
+	// ---- Shadows (усилены под тёмный фон + лёгкое неоновое свечение) --------
+	--tui-shadow-small: 0 0.25rem 1.25rem rgb(255, 46, 166, 0.15);
+	--tui-shadow-small-hover: 0 1rem 2.5rem rgb(255, 46, 166, 0.22);
+	--tui-shadow-medium: 0 0.375rem 2rem rgb(34, 224, 255, 0.15);
+	--tui-shadow-medium-hover: 0 1.25rem 4rem rgb(34, 224, 255, 0.22);
+	--tui-shadow-popup: 0 1.25rem 3rem rgb(8, 4, 14, 0.6);
+}
+
+.overlay {
+	background: rgb(15, 8, 23, 0.78);
+	backdrop-filter: blur(6px);
+}

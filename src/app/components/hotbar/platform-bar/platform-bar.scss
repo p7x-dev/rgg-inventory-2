@@ -1,0 +1,10 @@
+.platforms {
+	display: flex;
+	flex-direction: column;
+	padding: 0.4rem 1rem;
+}
+
+.platforms-row {
+	display: flex;
+	gap: 0.25rem;
+}

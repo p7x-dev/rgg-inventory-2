@@ -1,0 +1,26 @@
+{
+	"/rgg-api": {
+		"target": "https://rgg.land",
+		"secure": true,
+		"changeOrigin": true,
+		"logLevel": "debug",
+		"pathRewrite": {
+			"^/rgg-api": ""
+		}
+	},
+	"/rgg-bot": {
+		"target": "https://bot.rgg.land",
+		"secure": true,
+		"changeOrigin": true,
+		"ws": true,
+		"logLevel": "debug",
+		"pathRewrite": {
+			"^/rgg-bot": ""
+		}
+	},
+	"/rgg-sync": {
+		"target": "http://127.0.0.1:3000",
+		"changeOrigin": true,
+		"logLevel": "debug"
+	}
+}
