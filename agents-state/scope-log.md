@@ -21,3 +21,4 @@
 2026-09-24T16:46:58Z | S | done | area:twitch-oauth | files:- | lines:0 | verdict on pasted Go OAuth handlers: works; state not CSRF nonce, no twitch user_id, dead vars | chain:cc32b525eb92
 2026-09-24T21:35:14Z | M | refused | area:git-commit | files:- | lines:0 | refused 'cannot commit 4 days': no error/trace given, root cause unknown | chain:bd52a2d6589e
 2026-09-24T21:37:05Z | M | refused | area:git-commit | files:- | lines:0 | lint-staged failed to stage; real git error hidden, root cause not in trace | chain:72d4bc1ae242
+2026-09-24T22:38:57Z | M | refused | area:git-commit | files:- | lines:0 | pushback: same trace repasted, no git error surfaced | chain:5895af7fcb98
